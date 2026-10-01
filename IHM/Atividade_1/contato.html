@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato — Portal Notícia de Guanambi</title>
+
+    <meta name="description"
+          content="Entre em contato com o Portal Notícia de Guanambi para enviar dúvidas, sugestões e informações.">
+    <meta name="author" content="Seu Nome">
+
+    <meta property="og:title"
+          content="Contato — Portal Notícia de Guanambi">
+    <meta property="og:description"
+          content="Entre em contato com o Portal Notícia de Guanambi.">
+    <meta property="og:type" content="website">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #17365d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #750404;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input,
+        textarea,
+        button {
+            padding: 12px;
+            font-size: 1rem;
+        }
+
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #17365d;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0d243f;
+        }
+
+        footer {
+            background-color: #17365d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portal Notícia de Guanambi</h1>
+        <p>Entre em contato conosco</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="index.html#politica">Política</a>
+        <a href="index.html#esporte">Esporte</a>
+        <a href="index.html#tecnologia">Tecnologia</a>
+        <a href="index.html#cultura">Cultura</a>
+        <a href="index.html#ultimas-noticias">Últimas Notícias</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Fale conosco</h2>
+
+            <p>
+                Utilize os canais abaixo para entrar em contato com o
+                <strong>Portal Notícia de Guanambi</strong>.
+            </p>
+
+            <p>
+                Você pode enviar sugestões, dúvidas ou informações sobre
+                acontecimentos da região.
+            </p>
+
+            <p>
+                E-mail:
+                <a href="mailto:contato@portalnoticiadeguanambi.com">
+                    contato@portalnoticiadeguanambi.com
+                </a>
+            </p>
+        </section>
+
+
+        <section>
+            <h2>Envie uma mensagem</h2>
+
+            <form action="#" method="post">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome"
+                    name="nome" placeholder="Digite seu nome"
+                    required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email"
+                    name="email" placeholder="Digite seu e-mail"
+                    required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto"
+                    name="assunto" placeholder="Digite o assunto"
+                    required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Digite sua mensagem"
+                    required
+                ></textarea>
+
+                <button type="submit"> Enviar mensagem </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            2026 Portal Notícia de Guanambi — Todos os direitos reservados.
+        </p>
+
+        <p>
+            <a href="index.html">Voltar para a página inicial</a>
+        </p>
+
+        <p>
+            <a href="https://www.facebook.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Facebook
+            </a>
+            |
+            <a href="https://www.instagram.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Instagram
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
