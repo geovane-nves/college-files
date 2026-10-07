@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1 - Tabela de Alunos</title>
+    <link rel="stylesheet" href="css/ex1.css">
+</head>
+<body>
+
+    <table>
+        <!-- Título da tabela -->
+        <caption>Lista de Alunos - Turma 2ADS</caption>
+
+        <!-- Cabeçalho: scope="col" indica que o título vale para a coluna -->
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Nota</th>
+                <th scope="col">Média Final</th>
+                <th scope="col">Classificação</th>
+            </tr>
+        </thead>
+
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- scope="row" indica que o nome é o título da linha -->
+            <tr>
+                <th scope="row">Ana Souza</th>
+                <td>8.0</td>
+                <td>8.5</td>
+                <td>Aprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Bruno Lima</th>
+                <td>5.0</td>
+                <td>4.5</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Carla Dias</th>
+                <td>9.0</td>
+                <td>9.5</td>
+                <td>Aprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Diego Alves</th>
+                <td>6.0</td>
+                <td>6.0</td>
+                <td>Aprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Eduarda Melo</th>
+                <td>3.5</td>
+                <td>4.0</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Felipe Rocha</th>
+                <td>7.0</td>
+                <td>7.5</td>
+                <td>Aprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Gabriela Nunes</th>
+                <td>10.0</td>
+                <td>9.5</td>
+                <td>Aprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Henrique Costa</th>
+                <td>4.0</td>
+                <td>5.0</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">Isabela Ferreira</th>
+                <td>7.5</td>
+                <td>8.0</td>
+                <!-- ROWSPAN: esta célula ocupa 2 linhas (Isabela e João),
+                     pois os dois foram aprovados -->
+                <td rowspan="2">Aprovado</td>
+            </tr>
+            <tr>
+                <th scope="row">João Pedro</th>
+                <td>6.5</td>
+                <td>6.5</td>
+                <!-- a célula da Classificação não é repetida aqui por causa do rowspan -->
+            </tr>
+
+            <!-- Linha final com média da turma -->
+            <tr>
+                <!-- COLSPAN: esta célula ocupa 2 colunas (Nome e Nota) -->
+                <th scope="row" colspan="2">Média da turma</th>
+                <td>6.9</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

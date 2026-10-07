@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 5 - Cadastro Geral</title>
+    <link rel="stylesheet" href="css/ex5.css">
+</head>
+<body>
+
+    <form action="#" method="post">
+
+        <!-- Linha 1: Localização (maior) e Dados pessoais (menor) lado a lado -->
+        <div class="linha">
+            <fieldset class="grande">
+                <legend>Localização</legend>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" name="rua">
+            </fieldset>
+
+            <fieldset class="pequeno">
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="profissao">Profissão:</label>
+                <select id="profissao" name="profissao">
+                    <option>Sua profissão</option>
+                    <option>Estudante</option>
+                    <option>Professor</option>
+                    <option>Programador</option>
+                    <option>Farmador de Aura</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <!-- Linha 2: Esportes (esquerda) e Faixa etária (direita) -->
+        <div class="linha">
+
+            <!-- Esportes: checkboxes (pode marcar vários) -->
+            <fieldset class="pequeno">
+                <legend>Esportes que pratica</legend>
+                <div class="opcao">
+                    <input type="checkbox" id="e1" name="esportes" value="campo">
+                    <label for="e1">Futebol de campo</label>
+                </div>
+                <div class="opcao">
+                    <input type="checkbox" id="e2" name="esportes" value="salao">
+                    <label for="e2">Futebol de salão</label>
+                </div>
+                <div class="opcao">
+                    <input type="checkbox" id="e3" name="esportes" value="society">
+                    <label for="e3">Futebol society</label>
+                </div>
+                <div class="opcao">
+                    <input type="checkbox" id="e4" name="esportes" value="quadra">
+                    <label for="e4">Volley de quadra</label>
+                </div>
+                <div class="opcao">
+                    <input type="checkbox" id="e5" name="esportes" value="praia">
+                    <label for="e5">Volley de praia</label>
+                </div>
+                <div class="opcao">
+                    <input type="checkbox" id="e6" name="esportes" value="piscina">
+                    <label for="e6">Natação em piscina</label>
+                </div>
+                <div class="opcao">
+                    <input type="checkbox" id="e7" name="esportes" value="mar">
+                    <label for="e7">Natação em mar aberto</label>
+                </div>
+            </fieldset>
+
+            <!-- Faixa etária: radios com o mesmo name (só um pode ser escolhido) -->
+            <fieldset class="grande">
+                <legend>Faixa etária</legend>
+                <div class="opcao">
+                    <input type="radio" id="f1" name="faixa" value="ate20">
+                    <label for="f1">até 20 anos</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="f2" name="faixa" value="20a30">
+                    <label for="f2">mais de 20 até 30 anos</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="f3" name="faixa" value="30a40">
+                    <label for="f3">mais de 30 até 40 anos</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="f4" name="faixa" value="40a50">
+                    <label for="f4">mais de 40 até 50 anos</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="f5" name="faixa" value="50a60">
+                    <label for="f5">mais de 50 até 60 anos</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="f6" name="faixa" value="60mais">
+                    <label for="f6">mais de 60</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- Comentário -->
+        <fieldset>
+            <legend>Comentário</legend>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+        </fieldset>
+
+        <!-- type="submit" envia o formulário; type="reset" limpa todos os campos -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+</html>

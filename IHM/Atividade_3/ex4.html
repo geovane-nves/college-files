@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 4 - Formulário de Cadastro</title>
+    <link rel="stylesheet" href="css/ex4.css">
+
+</head>
+<body>
+
+    <h2>Cadastro</h2>
+
+    <form id="formulario" action="#" method="post">
+
+        <!-- NOME: "for" do label deve ser igual ao "id" do input -->
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <!-- E-MAIL: type="email" já valida o formato (ex: texto@dominio.com) -->
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- SENHA: minlength="8" exige no mínimo 8 caracteres -->
+        <div class="campo">
+            <label for="senha">Senha (mínimo 8 caracteres):</label>
+            <input type="password" id="senha" name="senha" minlength="8" required>
+        </div>
+
+        <!-- DATA DE NASCIMENTO: type="date" mostra o calendário e só aceita data válida -->
+        <div class="campo">
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento" min="1900-01-01" required>
+        </div>
+
+        <!-- INTERESSES: checkboxes (permite marcar vários) -->
+        <div class="campo">
+            <p>Interesses:</p>
+            <input type="checkbox" id="int1" name="interesses" value="musica">
+            <label class="inline" for="int1">Música</label>
+
+            <input type="checkbox" id="int2" name="interesses" value="esportes">
+            <label class="inline" for="int2">Esportes</label>
+
+            <input type="checkbox" id="int3" name="interesses" value="tecnologia">
+            <label class="inline" for="int3">Tecnologia</label>
+
+            <input type="checkbox" id="int4" name="interesses" value="leitura">
+            <label class="inline" for="int4">Leitura</label>
+        </div>
+
+        <!-- GÊNERO: botões de rádio (só um pode ser marcado, por isso o mesmo name) -->
+        <div class="campo">
+            <p>Gênero:</p>
+            <input type="radio" id="masc" name="genero" value="masculino" required>
+            <label class="inline" for="masc">Masculino</label>
+
+            <input type="radio" id="fem" name="genero" value="feminino">
+            <label class="inline" for="fem">Feminino</label>
+
+            <input type="radio" id="outro" name="genero" value="outro">
+            <label class="inline" for="outro">Outro</label>
+        </div>
+
+        <!-- CIDADE: dropdown com select e option -->
+        <div class="campo">
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade" required>
+                <option value="">Selecione...</option>
+                <option value="guanambi">Guanambi</option>
+                <option value="caetite">Caetité</option>
+                <option value="vitoria">Vitória da Conquista</option>
+                <option value="salvador">Salvador</option>
+            </select>
+        </div>
+
+        <!-- QUANTIDADE: campo numérico com valor mínimo e máximo -->
+        <div class="campo">
+            <label for="quantidade">Quantidade de produtos (1 a 100):</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" max="100" required>
+        </div>
+
+        <!-- OBSERVAÇÕES: campo de texto com várias linhas -->
+        <div class="campo">
+            <label for="obs">Observações adicionais:</label>
+            <textarea id="obs" name="obs" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+</body>
+</html>

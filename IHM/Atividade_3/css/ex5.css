@@ -1,0 +1,85 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/* Caixa externa do formulário (borda e fundo verde claro) */
+form {
+    width: 780px;
+    padding: 20px;
+    background-color: #eafbfa;
+    border: 1px solid #2e718b;
+}
+
+/* Estilo comum de todos os fieldsets */
+fieldset {
+    border: 1px solid #a8d2dc;
+    margin-bottom: 15px;
+    padding: 10px 15px 15px 15px;
+}
+
+        /* Título (legend) de cada fieldset */
+legend {
+    font-weight: bold;
+    color: #1f336b;
+    background-color: #f4fdff;
+    border: 1px solid #a8dcdc;
+    padding: 2px 8px;
+        }
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+        /* Campos de texto e select com borda verde */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    border: 1px solid #2e508b;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+        /* Textarea ocupa toda a largura, porém mais baixa */
+textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #54a6f8;
+    box-sizing: border-box;
+}
+
+        /* Linha com dois fieldsets lado a lado */
+.linha {
+    display: flex;
+    gap: 15px;
+}
+
+        /* Larguras diferentes: o primeiro é maior que o segundo */
+.grande {
+    flex: 3;
+}
+
+.pequeno {
+    flex: 2;
+}
+
+        /* Radios e checkboxes: label ao lado do campo */
+.opcao label {
+    display: inline;
+    margin: 0;
+        }
+
+.opcao {
+    margin-bottom: 5px;
+}
+
+        /* Botões Enviar e Limpar */
+button {
+    border: 1px solid #2e418b;
+    background-color: #f4fffe;
+    padding: 4px 14px;
+    cursor: pointer;
+}

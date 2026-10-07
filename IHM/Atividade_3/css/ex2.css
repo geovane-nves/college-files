@@ -1,0 +1,21 @@
+/* A tabela NÃO tem bordas: basta não definir border */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    padding: 0; /* sem espaço entre as imagens, como no modelo */
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    display: block; /* remove espaço extra embaixo da imagem */
+}
+
+p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

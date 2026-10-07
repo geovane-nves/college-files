@@ -18,7 +18,8 @@ Faculdade/
 │   └── Projetos/           # Sistemas completos (Gerenciamento de Produtos e Estoque)
 └── IHM/                    # Interação Homem-Máquina e prototipagem
     ├── Atividade_1/        # Projeto: Página de noticias para o IF
-    └── Atividade_2/        # Projeto: Página Home do IF
+    ├── Atividade_2/        # Projeto: Página Home do IF
+    └── Atividade_3/        # Exercícios utilizando tablelas
 ```
 ### Tecnologias e Linguagens
 

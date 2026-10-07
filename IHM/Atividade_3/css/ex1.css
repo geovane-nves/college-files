@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse; /* junta as bordas das células */
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+        /* Cor do cabeçalho para diferenciar das demais linhas */
+thead th {
+    background-color: #60a4f3;
+    color: white;
+}
+
+        /* Cor nas células com valores */
+tbody td {
+    background-color: #eaf2fb;
+}
+
+        /* Cor vermelha para a célula de reprovado */
+td.reprovado {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

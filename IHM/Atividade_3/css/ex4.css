@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    width: 450px;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block; /* label em cima do campo */
+    margin-bottom: 3px;
+}
+
+/* labels dos checkboxes e radios ficam ao lado do campo */
+label.inline {
+    display: inline;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
