@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black;
+            width: 370px;
+            
+        }
+        img {
+            width: 300px;
+            height: auto;
+        }
+        button {
+            margin: 10px;
+            padding: 8px 18px;
+            font-size: 14px;
+            width: 100px;
+        }
+
+        #ligar{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>A Lâmpada</h1>
+        <img src="/IHM/Atividade_5/images/apaga.jpeg" alt="Lâmpada" id="lampada">
+    </div>
+
+    <div>
+        <p>lampadas acendendo e apagando</p>
+        <button id="ligar" onclick="document.getElementById('lampada').src = '/IHM/Atividade_5/images/ligad.jpeg'">Acender</button>
+        <button id="apagar" onclick="document.getElementById('lampada').src = '/IHM/Atividade_5/images/apaga.jpeg'">Apagar</button>
+    </div>
+</body>
+</html>
