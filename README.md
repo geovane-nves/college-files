@@ -19,7 +19,9 @@ Faculdade/
 └── IHM/                    # Interação Homem-Máquina e prototipagem
     ├── Atividade_1/        # Projeto: Página de noticias para o IF
     ├── Atividade_2/        # Projeto: Página Home do IF
-    └── Atividade_3/        # Exercícios utilizando tablelas
+    ├── Atividade_3/        # Exercícios utilizando tablelas
+    ├── Atividade_4/        
+    └── Atividade_5/        # Exercícios atilizando JavaScript
 ```
 ### Tecnologias e Linguagens
 
