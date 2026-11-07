@@ -21,7 +21,8 @@ Faculdade/
     ├── Atividade_2/        # Projeto: Página Home do IF
     ├── Atividade_3/        # Exercícios utilizando tablelas
     ├── Atividade_4/        
-    └── Atividade_5/        # Exercícios atilizando JavaScript
+    ├── Atividade_5         # Exercícios atilizando JavaScript
+    └── Atividade_6/        # Exercícios usando DOM JavaScript
 ```
 ### Tecnologias e Linguagens
 
