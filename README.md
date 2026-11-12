@@ -22,7 +22,11 @@ Faculdade/
     ├── Atividade_3/        # Exercícios utilizando tablelas
     ├── Atividade_4/        
     ├── Atividade_5         # Exercícios atilizando JavaScript
-    └── Atividade_6/        # Exercícios usando DOM JavaScript
+    ├── Atividade_6/        # Exercícios usando DOM JavaScript
+    ├── Atividade_7         # Exercícios de Calculadora
+    └── Atividade_8/        # Exercícios de Cronômetro
+
+
 ```
 ### Tecnologias e Linguagens
 
