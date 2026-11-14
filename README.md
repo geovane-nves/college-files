@@ -31,5 +31,6 @@ Faculdade/
 ### Tecnologias e Linguagens
 
     C: Implementação de Algoritmos, Estruturas de Dados e Recursão.
+    Javascript: Imprementação de DOM
     Git & GitHub: Controle de versão e portfólio.
     VS Code: Ambiente de desenvolvimento principal.
